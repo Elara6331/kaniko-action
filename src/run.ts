@@ -4,6 +4,7 @@ import * as path from 'node:path'
 import * as core from '@actions/core'
 import * as exec from '@actions/exec'
 
+
 type Inputs = {
   executor: string
   cache: boolean
